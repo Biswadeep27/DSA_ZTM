@@ -1,20 +1,7 @@
 
 import java.util.*;
 
-class TreeNode{
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int x){
-        this.val = x;
-    }
-    TreeNode(int x, TreeNode left, TreeNode right) {
-        this.val = x;
-        this.left = left;
-        this.right = right;
-    }
-}
+
 
 public class BFSTraversal {
     public static List<List<Integer>> levelOrder(TreeNode root ){
@@ -59,6 +46,8 @@ public class BFSTraversal {
         binary_tree.right.left.right = new TreeNode(5);
 
         System.out.println("The root node is : " + (binary_tree.val));
+
+
 
         /*int[][] matrix = new int[4][4];
         for (int i = 0; i < matrix.length; i++) {
