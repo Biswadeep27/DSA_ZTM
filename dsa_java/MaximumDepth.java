@@ -45,7 +45,7 @@ public class MaximumDepth {
 
         //maxDepthTD(binary_tree,depth);
 
-        //max depth using bottom-up approach
+        //max depth using bottom-up approach - recursive
         int answer_bu = maxDepthBU(binary_tree);
 
         System.out.println("The maximum depth is : " + (answer_bu));
