@@ -36,7 +36,7 @@ public class numDecodings {
     }
 
     public static void main(String[] args) {
-        String s = "1211";
+        String s = "2125";
         int ans = getNumDecodings(s);
 
         System.out.println("The number of ways " + (ans));
